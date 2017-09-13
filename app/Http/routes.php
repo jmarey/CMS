@@ -42,11 +42,13 @@
 //}));
 
 
-Route::get('/post', 'PostsController@index');
-
 //Route::get('/post/{id}', 'PostsController@index');
 
 Route::resource('posts', 'PostsController');
+
+//Route::get('/post/{id}', 'PostsController@index');
+
+//Route::resource('posts', 'PostsController');
 
 //Route::get('/', 'PostsController@contact');
 
